@@ -1,0 +1,115 @@
+City ID: 12950341
+URL: https://www.sno.co.uk/ski-resort/soldeu/restaurants-soldeu-eating-takeaway/
+Restaurants:
+0: [DYLANS eat-drink-chill, L’Abarset]
+
+City ID: 12950341
+URL: https://www.minube.co.uk/restaurants-in/andorra/el_tarter
+Restaurants:
+0: [Kokinetta Restaurant, Roc de Les Bruixes Restaurant, Deimos Restaurant, Borda Estevet Restaurant, La Tagliatella, Hortell de Arcalis Restaurant, Restaurant Buda, Espai Andorra, Restaurant L?Excellence]
+
+City ID: 12950341
+URL: https://www.andorratravelservice-events.com/el-tarter-bars-and-restaurants-guide/
+Restaurants:
+0: [Foc I Lloc, San Pietro Trattoria, Dylan's, Manacor Grill, Burger Brothers, L'Abarset]
+
+City ID: 12950341
+URL: https://www.findskiholidays.com/el-tarter/restaurants
+Restaurants:
+0: [Cavalls i Neu, Borda de l'Horto, Restaurant Manacor Grill, Borda del Rector, Cort de Popaire, San Pietro, Hotel Segle XX Restaurant, Lamont Restaurant, La Caleta, Bar Restaurant Can Pep, Hotel Nordic, Restaurant El Saler, Fat Albert's, La Cabaneta, Burger Brothers, Diablito Andorra, Era de la Cort, Foc I Lloc, Dylan's, Hotel Naudi Restaurant, Delbosc Coffee Shop, Pizzeria L'Avet, Restaurant Llop Gris, Trattoria - Riba Escorjada, Ibaya, Buna Coffee & Brunch, L'abarset, Kao Soldeu, Restaurante L'Abarset Apres Ski, Arrosseria Pi de Migdia, Glassbar, Snack Bar El Clos, Forapista Burger, Dylans Wok & Wok, Koy Hermitage, Bruna Restaurante, Hotel Bruxelles Restaurant, Restaurante Fontanella, Hotel Del Tarter, La Tofana, Aspen Bar, Pub Villager, Hotel Soldeu Maistre Restaurant, Bar Restaurante Deu Sol, La Brasserie, La Cabana, Restaurante Tres BBB, Don Giovanni Ristorante Soldeu, Hotel Xalet Montana Restaurant, 42° Grados Bar Menu]
+
+City ID: 12950341
+URL: https://www.tripadvisor.com/Restaurants-g1025604-zfp58-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, San Pietro, Burger Brothers, Hotel Nordic, Foc I Lloc, Restaurant Llop Gris, Dylan's, L'abarset, Restaurant Del Clos, The Boss]
+
+City ID: 12950341
+URL: https://www.tripadvisor.com/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurant Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Burger Brothers, Dylans Wok & Wok, Snack Bar El Clos]
+
+City ID: 12950341
+URL: https://www.tripadvisor.com.au/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurant Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Burger Brothers, Dylans Wok & Wok, Snack Bar El Clos, El Mercat de Sant Pere]
+
+City ID: 12950341
+URL: https://www.tripadvisor.ca/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurant Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Burger Brothers, Dylans Wok & Wok, Snack Bar El Clos]
+
+City ID: 12950341
+URL: https://www.tripadvisor.co.uk/Restaurant_Review-g1025604-d1477664-Reviews-Dylan_s-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Dylan's, Restaurant Manacor Grill, San Pietro, Hotel Nordic, Foc I Lloc, Restaurant Llop Gris, Trattoria - Riba Escorjada, El Mercat de Sant Pere, Hotel Del Tarter, Burger Brothers, Skiz, Soldeu]
+
+City ID: 12950341
+URL: https://www.tripadvisor.com/Restaurant_Review-g1025604-d7285080-Reviews-Restaurant_Manacor_Grill-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Manacor Grill, Rosa C, San Pietro, Hotel Nordic, Foc I Lloc, Dylan's, Restaurant Llop Gris, Trattoria - Riba Escorjada, El Mercat de Sant Pere, Ona El Tarter, Borda de l'Horto, Restaurant El Saler, Skiz]
+
+City ID: 12950341
+URL: https://www.tripadvisor.co.za/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurant Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Burger Brothers, Dylans Wok & Wok, Snack Bar El Clos]
+
+City ID: 12950341
+URL: https://www.tripadvisor.co.uk/Restaurants-g1025604-zfg16556-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Burger Brothers]
+
+City ID: 12950341
+URL: https://www.tripadvisor.co.uk/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurant Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Burger Brothers, Dylans Wok & Wok, Snack Bar El Clos, El Mercat de Sant Pere]
+
+City ID: 12950341
+URL: https://www.tripadvisor.es/Restaurants-g1025604-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [Restaurant Manacor Grill, Hotel Nordic, Dylan's, San Pietro, Restaurante Llop Gris, Foc I Lloc, L'abarset, Restaurant Del Clos, The Boss, Trattoria - Riba Escorjada, Dylans Wok & Wok, Snack Bar El Clos, Burger Brothers, El Mercat de Sant Pere]
+
+City ID: 12950341
+URL: https://restaurantguru.com/El-Tarter
+Restaurants:
+0: [Restaurant Manacor, Dylan's, HOTEL LLOP GRIS, LAMONT restaurant, LYRA EMPANADAS, DJANGO GASTRO BAR, Trattoria San Pietro, CAVALLS I NEU, Restaurant Àliga, L'Abarset Restaurant, Del Clos, Sport Bar nemo, The Boss, Apres Ski, Ski Panini, RESTAURANT PAS DEL CABIROL, Les 3 BBB, Foc I Lloc, Trattoria - Riba Escorjada, Restaurante La Trattoria, Burger Brothers, El Tarter Terrassa, IQOS, Granja 1760, Buna Snack - Bar El Clos, El Mercat de Sant Pere, Sa Terrasseta, Hotel Nordic, Nemo Sports Bar, Placeta El Tarter, Arrosseria, Trattoria Pasta che Vuoi, Hotel Del Tarter, Rm Grill]
+
+City ID: 12950341
+URL: http://sanpietroandorra.com/
+Restaurants:
+0: [El restaurante]
+
+City ID: 12950341
+URL: https://restaurantguru.com/LAMONT-restaurant-El-Tarter
+Restaurants:
+0: [LAMONT]
+
+City ID: 12950341
+URL: https://www.tripadvisor.co.uk/Restaurant_Review-g1025604-d13394527-Reviews-San_Pietro-El_Tarter_Canillo_Parish.html
+Restaurants:
+0: [San Pietro, Restaurant Manacor Grill, Hotel Nordic, Foc I Lloc, Dylan's, Restaurant Llop Gris, Trattoria - Riba Escorjada, El Mercat de Sant Pere, Hotel Del Tarter, Burger Brothers, Skiz, Soldeu]
+
+City ID: 12950341
+URL: https://skiandorraholidays.com/soldeu-and-el-tarter-bars-and-restaurants/
+Restaurants:
+0: [Fat Albert's Bar and Restaurant, Restaurant La Cort de Popaire, The Villager Tapas and Wine, La Taverna de la Iaia, La Caleta Restaurant, Aspen Bar, The Bruxelles, The Harp Bar, Lounge Veuve Cliquot]
+
+City ID: 12950341
+URL: https://norrestaurant.com/en/sa-terrasseta/
+Restaurants:
+0: [Nør Restaurant, Sa Terrasseta]
+
+City ID: 12950341
+URL: https://visitandorra.com/en/places-and-services/el-tarter-much-more-than-skiing-in-andorra/
+Restaurants:
+0: [Caldea]
+
+City ID: 12950341
+URL: https://www.mountainhosteltarter.com/en/spaces/sa-terrasseta/
+Restaurants:
+0: [Sa Terrasseta]
+
+City ID: 12950341
+URL: https://skiinginandorra.co.uk/skiing-in-el-tarter-andorra/
+Restaurants:
+0: [Grand Plaza Hotel, Hotel Del Clos]
+

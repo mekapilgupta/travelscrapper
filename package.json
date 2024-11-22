@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "compromise": "^14.14.2",
+    "fs": "^0.0.1-security",
+    "g4f": "^1.4.6",
+    "http-proxy-agent": "^7.0.2",
+    "https-proxy-agent": "^7.0.5",
+    "natural": "^8.0.1",
+    "node-html-parser": "^6.1.13",
+    "path": "^0.12.7",
+    "proxy-lists": "^1.23.3",
+    "puppeteer": "^23.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "socks-proxy-agent": "^8.0.4",
+    "stopword": "^3.1.1",
+    "wink-nlp-utils": "^2.1.0"
+  }
+}

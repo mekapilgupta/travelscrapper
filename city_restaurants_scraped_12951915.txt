@@ -1,0 +1,48 @@
+City ID: 12951915
+URL: https://restaurantguru.com/Sander-Aldea-San-Antonio-2
+Restaurants:
+1: ["Sander", "monkfish", "asado"]
+
+City ID: 12951915
+URL: https://piatti.menu/restaurants/aldea-san-antonio/parada-10-cafe-comida
+Restaurants:
+1: [
+2:     "Parada 10 Café Comida",
+3:     "Parrilla La Rural",
+4:     "Pescare",
+5:     "Parador Urdinarrain",
+6:     "Pizzeria Avanti",
+7:     "Duck La Escondida de Guale",
+8:     "Margarita Gualeguaychu",
+9:     "Las Marias. De Campo",
+10:     "Bisteccheria La Beck",
+11:     "El Artesano"
+12: ]
+
+City ID: 12951915
+URL: https://www.tripinsiders.net/best-bars-and-restaurants-in-san-antonio-de-areco/
+Restaurants:
+1: [
+2:     "Boliche de Bessonart",
+3:     "Pulperia Lo de Tito",
+4:     "Almacén de Campo “El Batará”",
+5:     "El Mitre, Bar Histórico",
+6:     "La Vieja Soderia",
+7:     "María Brewing",
+8:     "Parrilla Guito"
+9: ]
+
+City ID: 12951915
+URL: https://www.sanantoniomag.com/the-10-best-restaurants-on-the-san-antonio-river-walk/
+Restaurants:
+1: [
+2:     "Biga on the Banks",
+3:     "Boudro’s",
+4:     "Domingo",
+5:     "Dorrego’s",
+6:     "Landrace",
+7:     "Ocho",
+8:     "Ostra",
+9:     "Tre Trattoria"
+10: ]
+

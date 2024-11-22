@@ -1,0 +1,37 @@
+City ID: 13144161
+URL: https://www.tripadvisor.com/Restaurants-g55657-Combes_Texas.html
+Restaurants:
+1: The extracted restaurant names from the provided text is:
+2: Laredo Taco Company
+
+City ID: 13144161
+URL: https://www.tiktok.com/travel/Combes-22535865234402521/best-restaurants?lang=en
+Restaurants:
+
+
+City ID: 13144161
+URL: https://lescombeswinery.com/locations/las-cruces/
+Restaurants:
+1: Alamogordo
+2: Albuquerque Old Town
+3: Albuquerque Cottonwood
+4: Las Cruces
+5: Deming
+6: Santa Fe
+
+City ID: 13144161
+URL: https://guide.michelin.com/jp/en/occitanie/combes/restaurant/auberge-de-combes
+Restaurants:
+1: Château St Pierre de Serjac
+2: Souki Lodges & Spa
+3: Château & Village Castigno
+4: L'Hôtel Particulier (Béziers)
+5: La Villa Guy
+6: Domaine Tarbouriech
+7: Château l'Hospitalet Wine Resort
+
+City ID: 13144161
+URL: https://www.facebook.com/77cornerstore/
+Restaurants:
+1: The text you provided does not contain any specific restaurant names. It mentions "77 corner store," which could be interpreted as a name, but it does not explicitly indicate that it is a restaurant. If you have more text or specific names you would like to extract, please provide that, and I can assist you further.
+

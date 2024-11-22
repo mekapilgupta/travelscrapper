@@ -1,0 +1,20 @@
+City ID: 12975855
+URL: https://www.sandiegouniontribune.com/2010/04/30/child-malnutrition-hits-ivory-coast-despite-food/
+Restaurants:
+0: ["S.D.'s best restaurants"]
+
+City ID: 12975855
+URL: https://issuu.com/kuwaitnews/docs/kt20100501
+Restaurants:
+0: ["No Restaurant Found"]
+
+City ID: 12975855
+URL: https://www.foxnews.com/world/children-malnourished-in-ivory-coast-because-of-inflated-food-prices-civil-war-legacy
+Restaurants:
+0: ["No Restaurant Found"]
+
+City ID: 12975855
+URL: https://www.sqftdesign.com/2010/04/30/child-malnutrition-hits-ivory-coast-despite-food/
+Restaurants:
+0: ["No Restaurant Found"]
+

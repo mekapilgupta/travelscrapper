@@ -1,0 +1,15 @@
+City ID: 12975856
+URL: https://www.tripadvisor.com/Restaurants-g294192-oa20-Ivory_Coast.html
+Restaurants:
+0: ["No Restaurant Found"]
+
+City ID: 12975856
+URL: https://www.tripadvisor.com/Restaurants-g294192-Ivory_Coast.html
+Restaurants:
+0: ["No Restaurant Found"]
+
+City ID: 12975856
+URL: https://www.youtube.com/watch?v=Jrp49gUjK6Q
+Restaurants:
+0: ["Canva"]
+

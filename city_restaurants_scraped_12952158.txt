@@ -1,0 +1,35 @@
+City ID: 12952158
+URL: https://www.dnb.com/business-directory/company-information.restaurants_and_other_eating_places.ar.na.pozo_del_tigre.html?page=1
+Restaurants:
+0: [ASCH MANAUEL AMADO]
+
+City ID: 12952158
+URL: https://www.trip.com/travel-guide/destination/pozo-del-tigre-1875469/
+Restaurants:
+0: [No Restaurant Found]
+
+City ID: 12952158
+URL: https://www.tripadvisor.com/Restaurants-g312762-c35-Tigre_Province_of_Buenos_Aires_Central_Argentina.html
+Restaurants:
+0: [Bplay Sports Bar, Delta Terra, Colonial Helados & Café, Atelier Chez Lissie, Zi Teresa, El Bodegon, Marrataco, Palta, Cachavacha, Umo Grill, Freedom Tigre, Mmmuzza, Tostado Cafe Club, Cachete Parador, Extra Brut, La Flaca, Brooklyn, Tamiz Resto Bar, Danilo, Los Inmortales, Restaurant El Nono, Benedicto, Parrilla El Arroyon, Tibuk Cocina, Sweet Pepper, Benito Parrilla, Celestino's, Cafe Havanna]
+
+City ID: 12952158
+URL: https://www.fodors.com/world/south-america/argentina/side-trips-from-buenos-aires/places/buenos-aires-province/tigre-and-the-parana-delta/restaurants
+Restaurants:
+0: [Almacén de Tigre, Danilo Restaurante, María Luján Ristorante]
+
+City ID: 12952158
+URL: https://wanderlog.com/list/geoCategory/75609/where-to-eat-best-restaurants-in-tigre
+Restaurants:
+0: [María Lujan, TBC, TIM, El Muelle, Restaurante Vivanco, Gato Blanco, Restaurante Las Glorias, Pizzeria Los Inmortales, Tutti a Tavola, Taco Box, Zio Paco, Almacén de flores, Parador El Hornero, Los Isleños, La Flaca, Restaurante Brujas Tigre, Sweet Pepper - American Grill, Amarras Snack Bar, Restaurante Tibuk Bistró, La Terraza, SushiClub Nordelta, Kanoo Delta, La Miguela, La Isla Restaurante, Celestinos, Agave Tex Mex, El Bodegon, Sushi Jo Nordelta, Brandi, El Nono, Restaurante La Ranchera, Cosqo, EL TANDILERO CASA DE PICADAS, Río Bar, Daksha Soul Food, Danilo Restaurante & Eventos, Mmmuzza, L' Fóret, Restaurante Bajos del Parana, Stromboli Pizzeria Restobar, Set Point restó, Extra brut, Tamiz Resto Bar, Marinas Bay casa di pasta, La Cabaña de Don Pedro, El farolito de tigre]
+
+City ID: 12952158
+URL: https://www.dnb.com/business-directory/company-information.restaurants_and_other_eating_places.ar.na.tigre.html?page=2
+Restaurants:
+0: [LA GROTTERIA]
+
+City ID: 12952158
+URL: https://www.trip.com/travel-guide/destination/sobremonte-department-1710381/
+Restaurants:
+0: [No Restaurant Found]
+

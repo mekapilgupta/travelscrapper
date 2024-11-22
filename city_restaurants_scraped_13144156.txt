@@ -1,0 +1,67 @@
+City ID: 13144156
+URL: https://www.tripadvisor.com/Restaurants-g55651-c2-zfp5-Colleyville_Texas.html
+Restaurants:
+1: Red Barn Bar-B-Que
+2: Snuffer's Restaurant & Bar
+3: Whole Foods Market
+
+City ID: 13144156
+URL: https://www.colleyvilleeats.com/
+Restaurants:
+1: Based on the provided text, the extracted restaurant name is:
+2: - Honey Teriyaki
+3: If there are any other specific names mentioned elsewhere in the text, please provide that text for further extraction.
+
+City ID: 13144156
+URL: https://www.opentable.com/neighborhood/tx/colleyville-restaurants
+Restaurants:
+1: The Black Dragon
+2: Reata
+3: Roots Southern Table
+4: Mister Charles Restaurant
+5: Beatrice
+6: Quarter Acre
+7: Nick & Sam's Steakhouse
+8: Al Biernat's - Oak Lawn
+9: Town Hearth
+10: José
+11: Next Bistro
+12: Stellini Trattoria
+13: Quartino-Grandscape
+14: Loveria Caffe
+15: NAPA Thai Asian Cuisine
+
+City ID: 13144156
+URL: https://nextbistrotx.com/
+Restaurants:
+1: The text provided does not explicitly mention any restaurant names. It refers to "Next Bistro" in the email address (info@nextbistrotx.com), which suggests that "Next Bistro" is the name of the restaurant. Therefore, the extracted restaurant name is:
+2: - Next Bistro
+
+City ID: 13144156
+URL: https://www.chefpointcafe.org/
+Restaurants:
+1: The restaurant name extracted from the text is:
+2: - Chef Point Bar & Restaurant
+3: So the list is:
+4: - Chef Point Bar & Restaurant
+
+City ID: 13144156
+URL: https://www.stonehouse-restaurant.com/
+Restaurants:
+1: The text provided does not contain any specific restaurant names. It only includes general phrases related to a restaurant, such as "OUR RESTAURANT" and "Fresh cuisine for everyone." If you have more specific text or additional information, please share it, and I can help extract the restaurant names.
+
+City ID: 13144156
+URL: https://thewallteamsignature.com/neighborhoods/colleyville/dining
+Restaurants:
+1: La Hacienda Ranch
+2: Ruggeri's Italiano Pescatore
+3: Gloria's Latin Cuisine
+4: NAPA Thai Asian Cuisine
+5: Stone House Restaurant
+6: Townhouse Brunch
+
+City ID: 13144156
+URL: https://www.fodors.com/community/united-states/restaurants-in-or-near-colleyville-484364/
+Restaurants:
+1: The text provided does not contain any specific restaurant names. It mentions "Arlington restaurants?" but does not list any actual restaurant names. If you have another text or more specific information, feel free to share!
+
