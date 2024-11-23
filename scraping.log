@@ -1,0 +1,110 @@
+2024-11-23T04:10:15.279Z - Error processing city_id 12950340: supabaseRead is not defined
+2024-11-23T04:10:17.307Z - Error processing city_id 12950341: supabaseRead is not defined
+2024-11-23T04:10:19.392Z - Error processing city_id 12950342: supabaseRead is not defined
+2024-11-23T04:10:21.424Z - Error processing city_id 12950343: supabaseRead is not defined
+2024-11-23T04:10:23.438Z - Error processing city_id 12950344: supabaseRead is not defined
+2024-11-23T04:10:25.446Z - Error processing city_id 12950345: supabaseRead is not defined
+2024-11-23T04:10:27.507Z - Error processing city_id 12950346: supabaseRead is not defined
+2024-11-23T04:12:08.205Z - Error processing city_id 12950340: supabaseRead is not defined
+2024-11-23T04:12:10.222Z - Error processing city_id 12950341: supabaseRead is not defined
+2024-11-23T04:12:12.249Z - Error processing city_id 12950342: supabaseRead is not defined
+2024-11-23T04:23:10.140Z - Skipping already processed city_id: 12950340
+2024-11-23T04:23:10.143Z - Skipping already processed city_id: 12950341
+2024-11-23T04:23:10.143Z - Skipping already processed city_id: 12950342
+2024-11-23T04:23:10.144Z - Skipping already processed city_id: 12950343
+2024-11-23T04:23:10.145Z - Skipping already processed city_id: 12950344
+2024-11-23T04:23:10.145Z - Skipping already processed city_id: 12950345
+2024-11-23T04:23:10.146Z - Skipping already processed city_id: 12950346
+2024-11-23T04:23:10.146Z - Skipping already processed city_id: 12950347
+2024-11-23T04:23:10.147Z - Skipping already processed city_id: 12950348
+2024-11-23T04:23:10.147Z - Skipping already processed city_id: 12950349
+2024-11-23T04:23:10.148Z - Skipping already processed city_id: 12950350
+2024-11-23T04:23:10.148Z - Skipping already processed city_id: 12950351
+2024-11-23T04:23:10.149Z - Skipping already processed city_id: 12950352
+2024-11-23T04:23:10.149Z - Skipping already processed city_id: 12950353
+2024-11-23T04:23:10.150Z - Skipping already processed city_id: 12950354
+2024-11-23T04:23:10.150Z - Skipping already processed city_id: 12950355
+2024-11-23T04:23:10.151Z - Skipping already processed city_id: 12950356
+2024-11-23T04:23:10.152Z - Skipping already processed city_id: 12950357
+2024-11-23T04:23:10.152Z - Skipping already processed city_id: 12950358
+2024-11-23T04:23:10.153Z - Skipping already processed city_id: 12950359
+2024-11-23T04:23:10.153Z - Skipping already processed city_id: 12950360
+2024-11-23T04:23:10.154Z - Skipping already processed city_id: 12950361
+2024-11-23T04:23:10.155Z - Skipping already processed city_id: 12950362
+2024-11-23T04:23:10.156Z - Skipping already processed city_id: 12950363
+2024-11-23T04:23:10.156Z - Skipping already processed city_id: 12950364
+2024-11-23T04:23:10.157Z - Skipping already processed city_id: 12950365
+2024-11-23T04:23:10.157Z - Skipping already processed city_id: 12950366
+2024-11-23T04:23:10.158Z - Skipping already processed city_id: 12950367
+2024-11-23T04:23:10.158Z - Skipping already processed city_id: 12950368
+2024-11-23T04:23:10.159Z - Skipping already processed city_id: 12950369
+2024-11-23T04:23:10.159Z - Skipping already processed city_id: 12950370
+2024-11-23T04:23:10.159Z - Skipping already processed city_id: 12950371
+2024-11-23T04:23:10.160Z - Skipping already processed city_id: 12950372
+2024-11-23T04:23:10.160Z - Skipping already processed city_id: 12950373
+2024-11-23T04:23:10.161Z - Skipping already processed city_id: 12950374
+2024-11-23T04:23:10.161Z - Skipping already processed city_id: 12950375
+2024-11-23T04:23:10.162Z - Skipping already processed city_id: 12950376
+2024-11-23T04:23:10.162Z - Skipping already processed city_id: 12950377
+2024-11-23T04:23:10.163Z - Skipping already processed city_id: 12950378
+2024-11-23T04:23:10.163Z - Skipping already processed city_id: 12950379
+2024-11-23T04:23:10.164Z - Skipping already processed city_id: 12950380
+2024-11-23T04:23:10.164Z - Skipping already processed city_id: 12950381
+2024-11-23T04:23:10.165Z - Skipping already processed city_id: 12950382
+2024-11-23T04:23:10.165Z - Skipping already processed city_id: 12950383
+2024-11-23T04:23:10.166Z - Skipping already processed city_id: 12950384
+2024-11-23T04:23:10.166Z - Skipping already processed city_id: 12950385
+2024-11-23T04:23:10.167Z - Skipping already processed city_id: 12950386
+2024-11-23T04:23:10.167Z - Skipping already processed city_id: 12950387
+2024-11-23T04:23:10.168Z - Skipping already processed city_id: 12950388
+2024-11-23T04:23:10.168Z - Skipping already processed city_id: 12950389
+2024-11-23T04:23:10.169Z - Skipping already processed city_id: 12950390
+2024-11-23T04:23:10.169Z - Skipping already processed city_id: 12950391
+2024-11-23T04:23:10.170Z - Skipping already processed city_id: 12950392
+2024-11-23T04:23:10.170Z - Skipping already processed city_id: 12950393
+2024-11-23T04:23:10.171Z - Skipping already processed city_id: 12950394
+2024-11-23T04:23:10.171Z - Skipping already processed city_id: 12950395
+2024-11-23T04:23:10.172Z - Skipping already processed city_id: 12950396
+2024-11-23T04:23:10.172Z - Skipping already processed city_id: 12950397
+2024-11-23T04:23:10.173Z - Skipping already processed city_id: 12950398
+2024-11-23T04:23:10.173Z - Skipping already processed city_id: 12950399
+2024-11-23T04:23:10.174Z - Skipping already processed city_id: 12950400
+2024-11-23T04:23:10.174Z - Skipping already processed city_id: 12950401
+2024-11-23T04:23:10.175Z - Skipping already processed city_id: 12950402
+2024-11-23T04:23:10.176Z - Skipping already processed city_id: 12950403
+2024-11-23T04:23:10.176Z - Skipping already processed city_id: 12950404
+2024-11-23T04:23:10.177Z - Skipping already processed city_id: 12950405
+2024-11-23T04:23:10.177Z - Skipping already processed city_id: 12950406
+2024-11-23T04:23:10.178Z - Skipping already processed city_id: 12950407
+2024-11-23T04:23:10.178Z - Skipping already processed city_id: 12950408
+2024-11-23T04:23:10.179Z - Skipping already processed city_id: 12950409
+2024-11-23T04:23:10.179Z - Skipping already processed city_id: 12950410
+2024-11-23T04:23:10.180Z - Skipping already processed city_id: 12950411
+2024-11-23T04:23:10.180Z - Skipping already processed city_id: 12950412
+2024-11-23T04:23:10.181Z - Skipping already processed city_id: 12950413
+2024-11-23T04:23:10.182Z - Skipping already processed city_id: 12950414
+2024-11-23T04:23:10.183Z - Skipping already processed city_id: 12950415
+2024-11-23T04:23:10.183Z - Skipping already processed city_id: 12950416
+2024-11-23T04:23:10.184Z - Skipping already processed city_id: 12950417
+2024-11-23T04:23:10.184Z - Skipping already processed city_id: 12950418
+2024-11-23T04:23:10.185Z - Skipping already processed city_id: 12950419
+2024-11-23T04:23:10.185Z - Skipping already processed city_id: 12950420
+2024-11-23T04:23:10.186Z - Skipping already processed city_id: 12950421
+2024-11-23T04:23:10.187Z - Skipping already processed city_id: 12950422
+2024-11-23T04:23:10.187Z - Skipping already processed city_id: 12950423
+2024-11-23T04:23:10.188Z - Skipping already processed city_id: 12950424
+2024-11-23T04:23:10.189Z - Skipping already processed city_id: 12950425
+2024-11-23T04:23:10.190Z - Skipping already processed city_id: 12950426
+2024-11-23T04:23:10.190Z - Skipping already processed city_id: 12950427
+2024-11-23T04:23:10.191Z - Skipping already processed city_id: 12950428
+2024-11-23T04:23:10.192Z - Skipping already processed city_id: 12950429
+2024-11-23T04:23:10.192Z - Skipping already processed city_id: 12950430
+2024-11-23T04:23:10.193Z - Skipping already processed city_id: 12950431
+2024-11-23T04:23:10.194Z - Skipping already processed city_id: 12950432
+2024-11-23T04:23:10.195Z - Skipping already processed city_id: 12950433
+2024-11-23T04:23:10.197Z - Skipping already processed city_id: 12950434
+2024-11-23T04:23:10.198Z - Skipping already processed city_id: 12950435
+2024-11-23T04:23:10.198Z - Skipping already processed city_id: 12950436
+2024-11-23T04:23:10.199Z - Skipping already processed city_id: 12950437
+2024-11-23T04:23:10.200Z - Skipping already processed city_id: 12950438
+2024-11-23T04:23:10.200Z - Skipping already processed city_id: 12950439

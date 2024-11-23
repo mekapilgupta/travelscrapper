@@ -325,32 +325,28 @@
 
 
 
+
 // // Run the script
 // processUrls().catch(error => {
 //     console.error('Error in processing URLs:', error.message);
 // });
 
-
-
 const { scrapePage } = require('./scraper');
-const { loadUrls, writeResultsToFile, writeResultsToCSV } = require('./utils');
 const OVH = require('./ovhgpt'); // Import the OVH function
-const { loadUrlsFromSourceTable, insertAccumulatedScrapedData, writeScrapedDataToFile } = require('./supabaseUtils');
+const { fetchProcessedCityIds, fetchNewCities, insertAccumulatedScrapedData } = require('./supabaseUtils'); // Updated supabaseUtils import
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function getRestaurantNamesFromOVH(content) {
     try {
-        const prompt = `Here is some text from a webpage:\n\n${content}\n\nExtract the restaurant names from this text and provide them as an array. If no restaurant names are found, simply return "No Restaurant Found". Do not include any additional text or explanations. Here is an example of the expected output: ["Restaurant A", "Restaurant B", "Restaurant C"]. Please strictly note that the output should be in the form of a array.`;
+        const prompt = `Here is some text from a webpage:\n\n${content}\n\nExtract the restaurant names from this text and provide them as an array. If no restaurant names are found, simply return "No Restaurant Found". Do not include any additional text or explanations. Here is an example of the expected output: ["Restaurant A", "Restaurant B", "Restaurant C"]. Please strictly note that the output should be in the form of an array.`;
         console.log(`Sending the following data to OVH:\n${prompt}`);
-        
-        // Wait for 4 seconds before sending data
+
         await delay(4000); // 4 seconds delay
-        
+
         const restaurantNames = await OVH(prompt);
         console.log(`OVH response: ${restaurantNames}`);
 
-        // Clean the response to ensure it's a simple array
         if (Array.isArray(restaurantNames)) {
             return restaurantNames.map(name => name.replace(/[$$$$"]/g, '').trim()); // Clean up the names
         } else if (restaurantNames === "No Restaurant Found") {
@@ -366,8 +362,8 @@ async function getRestaurantNamesFromOVH(content) {
 
 function isValidUrl(url) {
     const invalidDomains = [
-        'reddit.com', 'airbnb.com', 'booking.com', 'trivago.com', 
-        'facebook.com', 'instagram.com', 'tiktok.com', 
+        'reddit.com', 'airbnb.com', 'booking.com', 'trivago.com',
+        'facebook.com', 'instagram.com', 'tiktok.com',
         'youtube.com', 'makemytrip.com', 'expedia.com'
     ];
     return !invalidDomains.some(domain => url.includes(domain));
@@ -384,12 +380,11 @@ async function processUrl(url, city_id, accumulatedResults) {
 
     // Check if scraped data is empty
     if (scrapedData.length === 0) {
-        await writeResultsToFile(url, 'No relevant content found');
+        console.log(`No relevant content found for URL: ${url}`);
         return; // Skip to the next URL
     }
 
-    // Clean and extract restaurant names from the scraped data
-    const cleanedData = scrapedData.join(' '); // Assuming this is the cleaning step
+    const cleanedData = scrapedData.join(' '); // Clean up data
     let restaurantNames = await getRestaurantNamesFromOVH(cleanedData);
 
     // Store the result for the current URL
@@ -399,47 +394,55 @@ async function processUrl(url, city_id, accumulatedResults) {
             restaurants: restaurantNames // Store the structured restaurant names
         });
 
-        // Write results to CSV
-        await writeResultsToCSV(city_id, url, cleanedData, restaurantNames);
+        // Disabled file and CSV writing for time/space optimization
+        // await writeResultsToCSV(city_id, url, cleanedData, restaurantNames);
     } else {
         console.log(`No restaurant names found for URL: ${url}`);
     }
 }
 
 async function processUrls() {
-    const sourceData = await loadUrlsFromSourceTable();
+    try {
+        // Fetch already processed city IDs from the supabaseWrite table
+        const processedCityIds = await fetchProcessedCityIds();
 
-    for (const entry of sourceData) {
-        await delay(2000); 
-        const { website_urls, city_id } = entry;
+        // Fetch new cities (not processed yet)
+        const newCities = await fetchNewCities(processedCityIds);
 
-        try {
-            const urls = Array.isArray(website_urls) ? website_urls : JSON.parse(website_urls);
-            const accumulatedResults = []; // Array to store results for the current city
-
-            // Process URLs in batches
-            for (let i = 0; i < urls.length; i += 4) {
-                const batch = urls.slice(i, i + 4);
-                const promises = batch.map(urlObj => processUrl(urlObj.url, city_id, accumulatedResults));
-                await Promise.all(promises); // Wait for all promises in the batch to resolve
-
-             // Wait for 20 seconds before processing the next batch
-             await delay(20000); // 20 seconds delay
-            }
-
-            // Insert all accumulated results for the city into the database
-            for (const result of accumulatedResults) {
-                await insertAccumulatedScrapedData(city_id, result);
-            }
-
-            // Write all accumulated results to a file
-            for (const result of accumulatedResults) {
-                await writeScrapedDataToFile(city_id, result);
-            }
-
-        } catch (error) {
-            console.error(`Error processing city_id ${city_id}:`, error.message);
+        if (newCities.length === 0) {
+            console.log('No new cities to process.');
+            return;
         }
+
+        for (const entry of newCities) {
+            const { website_urls, city_id } = entry;
+
+            try {
+                const urls = Array.isArray(website_urls) ? website_urls : JSON.parse(website_urls);
+                const accumulatedResults = []; // Array to store results for the current city
+
+                // Process URLs in batches
+                for (let i = 0; i < urls.length; i += 4) {
+                    const batch = urls.slice(i, i + 4);
+                    const promises = batch.map(urlObj => processUrl(urlObj.url, city_id, accumulatedResults));
+                    await Promise.all(promises); // Wait for all promises in the batch to resolve
+
+                    // Wait for 20 seconds before processing the next batch
+                    await delay(20000); // 20 seconds delay
+                }
+
+                // Insert all accumulated results for the city into the database
+                for (const result of accumulatedResults) {
+                    await insertAccumulatedScrapedData(city_id, result);
+                }
+
+            } catch (error) {
+                console.error(`Error processing city_id ${city_id}:`, error.message);
+            }
+        }
+
+    } catch (error) {
+        console.error('Error in fetching or processing cities:', error.message);
     }
 }
 

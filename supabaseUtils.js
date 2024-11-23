@@ -34,7 +34,7 @@ const supabaseWrite = createClient(supabaseUrlWrite, supabaseKeyWrite);
 
 
 
-const fs = require('fs');
+// const fs = require('fs');
 // Load URLs from the source table
 // async function loadUrlsFromSourceTable() {
 //     const { data, error } = await supabase
@@ -49,27 +49,68 @@ const fs = require('fs');
 //     return data; // Return the data directly
 // }
 
-async function loadUrlsFromSourceTable() {
-    const { data, error } = await supabaseRead
-        .from('restaurant_websites_by_city') // Replace with your actual source table name
-        .select('website_urls, city_id') // Select the necessary columns
-        .neq('count_of_urls', 0) // Exclude rows where count_of_urls is 0
-        .order('city_id', { ascending: true }) // Order by city_id in ascending order
-        .limit(100); // Limit the number of results to 100 (adjust as needed)
 
-    if (error) {
-        console.error('Error loading URLs from source table:', error);
-        return [];
-    }
-    return data; // Return the data directly
+const logFilePath = path.join(__dirname, 'scraping.log');
+
+function logMessage(message) {
+    const timestamp = new Date().toISOString();
+    fs.appendFileSync(logFilePath, `[${timestamp}] ${message}\n`);
 }
 
+const fs = require('fs');
+
+// Fetch processed city IDs from supabaseWrite
+async function fetchProcessedCityIds() {
+    try {
+        // Fetch the processed city IDs from supabaseWrite
+        const { data, error } = await supabaseWrite
+            .from('city_restaurant_data') // Your table where processed cities are stored
+            .select('city_id'); // Select only the city_id field
+
+        if (error) {
+            throw error;  // If there's an error, throw it
+        }
+
+        // Extract city_ids from the response
+        const processedCityIds = data.map(entry => entry.city_id);
+        console.log('Processed city IDs:', processedCityIds);
+
+        return processedCityIds;
+    } catch (error) {
+        console.error('Error fetching processed city IDs:', error.message);
+        return [];  // Return an empty array if there's an error
+    }
+}
+
+// Fetch new cities from supabaseRead, excluding the processed ones
+async function fetchNewCities(processedCityIds) {
+    try {
+        const { data, error } = await supabaseRead
+            .from('restaurant_websites_by_city') // Your source table
+            .select('website_urls, city_id') // Select the relevant columns
+            .neq('count_of_urls', 0) // Ensure there's data
+            .limit(100); // Adjust this limit as needed
+
+        if (error) {
+            throw error;
+        }
+
+        // Filter out cities that have already been processed
+        const newCities = data.filter(entry => !processedCityIds.includes(entry.city_id));
+        console.log('New cities to process:', newCities);
+
+        return newCities;
+    } catch (error) {
+        console.error('Error fetching new cities:', error.message);
+        return [];  // Return an empty array if there's an error
+    }
+}
 
 // Insert accumulated scraped data into the city_restaurant_data table
 async function insertAccumulatedScrapedData(cityId, accumulatedData) {
     const { error } = await supabaseWrite
-        .from('city_restaurant_data') // Replace with your actual destination table name
-        .insert([{ city_id: cityId, scraped_data: accumulatedData }]); // Adjust the object structure as needed
+        .from('city_restaurant_data')
+        .insert([{ city_id: cityId, scraped_data: accumulatedData }]);
 
     if (error) {
         console.error('Error inserting accumulated scraped data into city_restaurant_data:', error.message);
@@ -78,47 +119,4 @@ async function insertAccumulatedScrapedData(cityId, accumulatedData) {
     }
 }
 
-// Write scraped data to a CSV or TXT file
-async function writeScrapedDataToFile(cityId, scrapedData) {
-    const filePath = path.join(__dirname, `city_restaurants_scraped_${cityId}.txt`);
-    const dataToWrite = `City ID: ${cityId}\nURL: ${scrapedData.url}\nRestaurants:\n`;
-
-    // Format the restaurants object into a string
-    const restaurantEntries = Object.entries(scrapedData.restaurants)
-        .map(([key, name]) => `${key}: ${name}`)
-        .join('\n');
-
-    fs.appendFile(filePath, dataToWrite + restaurantEntries + '\n\n', (err) => {
-        if (err) {
-            console.error('Error writing to file:', err.message);
-        }
-    });
-}
-
-
-async function getLastProcessedUrl(city_id) {
-    const { data, error } = await supabase
-        .from('processed_urls')
-        .select('last_processed_url')
-        .eq('city_id', city_id)
-        .single();
-
-    if (error) {
-        console.error('Error fetching last processed URL:', error.message);
-        return null;
-    }
-    return data ? data.last_processed_url : null;
-}
-
-async function updateLastProcessedUrl(city_id, url) {
-    const { error } = await supabase
-        .from('processed_urls')
-        .upsert({ city_id, last_processed_url: url });
-
-    if (error) {
-        console.error('Error updating last processed URL:', error.message);
-    }
-}
-
-
-module.exports = { loadUrlsFromSourceTable, insertAccumulatedScrapedData, writeScrapedDataToFile ,updateLastProcessedUrl ,getLastProcessedUrl};
+module.exports = { fetchProcessedCityIds, fetchNewCities, insertAccumulatedScrapedData };
