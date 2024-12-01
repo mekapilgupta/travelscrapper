@@ -623,7 +623,7 @@
 
 
 const { scrapePage } = require('./scraper');
-const DuckGPT = require('./DuckGPT');
+const DuckGPT = require('./Duckgpt.js');
 const { 
     fetchProcessedCityIds, 
     fetchDataForCity, 
