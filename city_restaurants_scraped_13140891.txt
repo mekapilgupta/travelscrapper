@@ -1,8 +1,0 @@
-City ID: 13140891
-URL: [object Object]
-Restaurants: [object Object]
-
-City ID: 13140891
-URL: [object Object]
-Restaurants: [object Object]
-

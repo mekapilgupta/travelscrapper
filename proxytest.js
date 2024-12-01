@@ -1,89 +1,96 @@
 const fs = require('fs');
-const https = require('https');
+const axios = require('axios');
 const { SocksProxyAgent } = require('socks-proxy-agent');
-const { URL } = require('url');
+const net = require('net');  // For checking raw SOCKS5 proxy connectivity
 
-const webhookUrl = 'https://webhook.site/9ea5caeb-b25f-4933-bb29-86ec685dbc8a';
+// Function to get public IP through the proxy
+async function getProxyIp(proxy) {
+  const agent = new SocksProxyAgent(`socks5h://${proxy}`);
 
-// Function to read proxies from a file
-function readProxiesFromFile(filename) {
-    return new Promise((resolve, reject) => {
-        fs.readFile(filename, 'utf8', (err, data) => {
-            if (err) {
-                return reject(err);
-            }
-            // Split lines and filter out empty lines
-            const proxies = data.split('\n').map(line => line.trim()).filter(line => line);
-            resolve(proxies);
-        });
+  try {
+    // Use a service like ipify to get the public IP
+    const response = await axios.get('https://api.ipify.org?format=json', {
+      httpAgent: agent,
+      httpsAgent: agent,
+      timeout: 5000
     });
+    return response.data.ip;
+  } catch (error) {
+    console.log(`[NOT WORKING] Could not fetch IP through proxy ${proxy}. Error: ${error.message}`);
+    return null;
+  }
 }
 
-// Function to send POST request using SOCKS5 proxy
-async function sendPostRequestSocks(proxy) {
-    const [address, port, username, password] = proxy.split(':');
-    const url = new URL(webhookUrl);
-
-    const options = {
-        hostname: url.hostname,
-        port: url.port || (url.protocol === 'https:' ? 443 : 80),
-        path: url.pathname,
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        agent: new SocksProxyAgent(`socks5://${username}:${password}@${address}:${port}`), // Use the SOCKS proxy agent
-        timeout: 5000 // Set a timeout for the request
-    };
-
-    console.log(`Testing SOCKS5 proxy: ${proxy}`);
-
-    return new Promise((resolve, reject) => {
-        const req = https.request(options, (res) => {
-            let data = '';
-
-            res.on('data', (chunk) => {
-                data += chunk;
-            });
-
-            res.on('end', () => {
-                console.log(`Success from SOCKS5 proxy ${proxy}:`, data);
-                resolve();
-            });
-        });
-
-        req.on('error', (err) => {
-            console.error(`Error with SOCKS5 proxy ${proxy}:`, err.message);
-            reject(err);
-        });
-
-        req.end(); // End the request
+// Function to test HTTP(S) proxy with Axios
+async function testHttpProxy(proxy) {
+  const agent = new SocksProxyAgent(`socks5h://${proxy}`);
+  try {
+    const response = await axios.get('https://www.google.com', {
+      httpAgent: agent,
+      httpsAgent: agent,
+      timeout: 5000
     });
-}
-
-// Main function to run the process
-(async () => {
-    try {
-        const proxies = await readProxiesFromFile('proxies.txt'); // Read proxies from the file
-
-        for (const proxy of proxies) {
-            let success = false;
-
-            // Try SOCKS5 with retries
-            for (let attempt = 0; attempt < 3 && !success; attempt++) { // Retry up to 3 times
-                try {
-                    await sendPostRequestSocks(proxy);
-                    success = true; // Mark as successful if no error occurs
-                } catch (socksError) {
-                    console.error(`SOCKS5 failed for ${proxy}, attempt ${attempt + 1}:`, socksError.message);
-                }
-            }
-
-            if (!success) { 
-                console.error(`SOCKS5 failed for ${proxy} after multiple attempts.`);
-            }
-        }
-    } catch (error) {
-        console.error('Error reading proxies:', error.message);
+    if (response.status === 200) {
+      console.log(`[WORKING] HTTP(S) Proxy ${proxy} is working.`);
+      const proxyIp = await getProxyIp(proxy);
+      if (proxyIp) {
+        console.log(`[INFO] HTTP(S) Proxy ${proxy} is routing traffic through IP: ${proxyIp}`);
+      }
+    } else {
+      console.log(`[NOT WORKING] HTTP(S) Proxy ${proxy} failed with status: ${response.status}`);
     }
-})();
+  } catch (error) {
+    console.log(`[NOT WORKING] HTTP(S) Proxy ${proxy} failed. Error: ${error.message}`);
+  }
+}
+
+// Function to test raw SOCKS5 proxy connectivity
+function testRawSocksProxy(proxy) {
+  const [host, port] = proxy.split(':');
+  const socket = new net.Socket();
+
+  socket.setTimeout(5000); // Set a 5-second timeout
+  socket.on('connect', async () => {
+    console.log(`[WORKING] SOCKS5 Proxy ${proxy} is responsive.`);
+    const proxyIp = await getProxyIp(proxy);
+    if (proxyIp) {
+      console.log(`[INFO] SOCKS5 Proxy ${proxy} is routing traffic through IP: ${proxyIp}`);
+    }
+    socket.end();  // Close the connection after testing
+  });
+
+  socket.on('timeout', () => {
+    console.log(`[NOT WORKING] SOCKS5 Proxy ${proxy} timed out.`);
+    socket.destroy();
+  });
+
+  socket.on('error', (err) => {
+    console.log(`[NOT WORKING] SOCKS5 Proxy ${proxy} failed. Error: ${err.message}`);
+    socket.destroy();
+  });
+
+  socket.connect(parseInt(port), host);
+}
+
+// Function to test a proxy
+async function testProxy(proxy) {
+  // First, try HTTP(S) proxy test
+  await testHttpProxy(proxy);
+
+  // Then, try raw SOCKS5 connection test if the HTTP(S) test fails or if needed
+  testRawSocksProxy(proxy);
+}
+
+// Read proxy list from file
+fs.readFile('proxy.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error('Error reading proxy.txt:', err);
+    return;
+  }
+
+  // Split the file content into an array of proxies
+  const proxies = data.split('\n').map(proxy => proxy.trim()).filter(proxy => proxy);
+
+  // Test each proxy
+  proxies.forEach(testProxy);
+});

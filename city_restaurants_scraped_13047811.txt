@@ -1,5 +1,0 @@
-City ID: 13047811
-URL: http://up.gt/mom
-Restaurants:
-0: ["No Restaurant Found"]
-

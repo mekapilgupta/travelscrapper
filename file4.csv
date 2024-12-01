@@ -1,0 +1,1001 @@
+id,city_name,country_name
+13072122,Tokyo,Japan
+13046641,Jakarta,Indonesia
+13058337,Delhi,India
+12982562,Guangzhou,China
+13058554,Mumbai,India
+13104504,Manila,Philippines
+12979807,Shanghai,China
+12965120,Sao Paulo,Brazil
+13080929,Mexico City,Mexico
+13009657,Cairo,Egypt
+12961144,Dhaka,Bangladesh
+12983900,Beijing,China
+13058532,Kolkata,India
+13130029,Bangkok,Thailand
+12979657,Shenzhen,China
+13122684,Moscow,Russia
+12951886,Buenos Aires,Argentina
+13095674,Lagos,Nigeria
+13133052,Istanbul,Turkey
+13107345,Karachi,Pakistan
+13159091,Ho Chi Minh City,Vietnam
+13072268,Osaka,Japan
+12983627,Chengdu,China
+13059559,Tehran,Iran
+12965282,Rio de Janeiro,Brazil
+13057281,Chennai,India
+12978653,Xi'an,China
+13107296,Lahore,Pakistan
+12983536,Chongqing,China
+13154497,Los Angeles,United States
+12983960,Baoding,China
+13035490,London,United Kingdom
+13023356,Paris,France
+12981214,Linyi,China
+12983106,Dongguan,China
+13057908,Hyderabad,India
+12979105,Tianjin,China
+13101655,Lima,Peru
+12978774,Wuhan,China
+12980482,Nanyang,China
+12982391,Hangzhou,China
+12982839,Foshan,China
+13072337,Nagoya,Japan
+12978058,Tongshan,China
+12951500,Luanda,Angola
+12977295,Zhoukou,China
+12982729,Ganzhou,China
+13094761,Kuala Lumpur,Malaysia
+12982229,Heze,China
+12980062,Quanzhou,China
+13160420,Johannesburg,South Africa
+13146495,Chicago,United States
+12980549,Nanjing,China
+12981668,Jining,China
+13159268,Hanoi,Vietnam
+13056605,Pune,India
+12982784,Fuyang,China
+13059082,Ahmedabad,India
+12993002,Bogota,Colombia
+12986760,Shenyang,China
+13133943,Dar es Salaam,Tanzania
+13126302,Khartoum,Sudan
+12977251,Shangqiu,China
+13042213,Hong Kong,Hong Kong
+12983798,Cangzhou,China
+13126165,Riyadh,Saudi Arabia
+12976007,Santiago,Chile
+12976856,Xingtai,China
+12977238,Zhumadian,China
+12961187,Chattogram,Bangladesh
+13045602,Surabaya,Indonesia
+12977472,Zhanjiang,China
+12983859,Bijie,China
+12978043,Yancheng,China
+12982277,Hengyang,China
+12977173,Zunyi,China
+12983951,Shaoyang,China
+13056107,Surat,India
+12978068,Shangrao,China
+12978207,Xinyang,China
+13014425,Madrid,Spain
+13059429,Baghdad,Iraq
+12980802,Maoming,China
+12980007,Jieyang,China
+13138225,Miami,United States
+13127664,Singapore,Singapore
+13141169,Houston,United States
+12981338,Liaocheng,China
+12982059,Huanggang,China
+12983373,Dalian,China
+13138701,Dallas,United States
+12980166,Qingdao,China
+12977640,Yulin,China
+12976244,Douala,Cameroon
+12980055,Qujing,China
+13141633,Philadelphia,United States
+12980285,Pudong,China
+12968305,Toronto,Canada
+12977413,Zhengzhou,China
+12983184,Dezhou,China
+12980591,Nanchong,China
+12981733,Jinan,China
+13009669,Giza,Egypt
+13073488,Nairobi,Kenya
+13086968,Guadalajara,Mexico
+13132420,Ankara,Turkey
+12976883,Tai'an,China
+12981466,Langfang,China
+12983203,Dazhou,China
+13121961,Saint Petersburg,Russia
+13079873,Monterrey,Mexico
+12966327,Belo Horizonte,Brazil
+12979292,Suzhou,China
+12977716,Yongzhou,China
+12978752,Changde,China
+12977026,Xiangyang,China
+13138613,Atlanta,United States
+13137741,Washington,United States
+12977447,Zhaotong,China
+12977479,Zhangzhou,China
+12956892,Melbourne,Australia
+12977844,Yichun,China
+12983827,Bozhou,China
+12979295,Suqian,China
+12981884,Ji'an,China
+12982501,Guilin,China
+12980355,Pingdingshan,China
+13006507,Berlin,Germany
+13009672,Alexandria,Egypt
+12980686,Mianyang,China
+12956393,Sydney,Australia
+13016252,Barcelona,Spain
+12977633,Yuncheng,China
+13160608,Cape Town,South Africa
+12979966,Changsha,China
+13126148,Jeddah,Saudi Arabia
+12978868,Weinan,China
+12983578,Chenzhou,China
+12981845,Jiangmen,China
+12976965,Jiujiang,China
+12978249,Xinpu,China
+12977851,Yibin,China
+12982146,Huaihua,China
+12977944,Yangzhou,China
+12979238,Taizhou,China
+12981489,Kunming,China
+12977836,Yiyang,China
+12983734,Changchun,China
+12980998,Lu'an,China
+12988611,Jiangguanchi,China
+12980712,Meizhou,China
+12979292,Suzhou,China
+13138637,Boston,United States
+13131598,Izmir,Turkey
+12982503,Guigang,China
+12979747,Shantou,China
+12950566,Kabul,Afghanistan
+13076933,Bamako,Mali
+12980874,Luzhou,China
+12982350,Hefei,China
+12982284,Hengshui,China
+12964677,Fortaleza,Brazil
+12984151,Anqing,China
+12981213,Liuzhou,China
+12986428,Zhangjiakou,China
+12977450,Zhaoqing,China
+12979595,Shijiazhuang,China
+12980453,Ningbo,China
+12986818,Qiqihar,China
+13146873,Phoenix,United States
+12982780,Fuzhou,China
+12985459,Chifeng,China
+12978503,Xiaoxita,China
+13071978,Amman,Jordan
+12983508,Chuzhou,China
+12981284,Linfen,China
+12978851,Qingyuan,China
+12978579,Xianyang,China
+12981002,Loudi,China
+12983851,Binzhou,China
+12977210,Zhuzhou,China
+12977032,Taiyuan,China
+12980527,Nanning,China
+12987142,Harbin,China
+13096177,Abuja,Nigeria
+13072047,Yokohama,Japan
+12986704,Suihua,China
+12977553,Zaozhuang,China
+13144215,Detroit,United States
+12978659,Xiamen,China
+12980467,Neijiang,China
+12967895,Montreal,Canada
+12982780,Fuzhou,China
+12976711,Baicheng,China
+12978772,Wuhu,China
+12977639,Yulinshi,China
+13045322,Medan,Indonesia
+12978799,Wenzhou,China
+12983658,Changzhou,China
+12980258,Puyang,China
+12981776,Jiaozuo,China
+12980595,Nanchang,China
+13157113,Seattle,United States
+13095874,Ibadan,Nigeria
+13076064,Casablanca,Morocco
+13039387,Kumasi,Ghana
+12983186,Deyang,China
+12987124,Hohhot,China
+12991761,Hechi,China
+13008758,Algiers,Algeria
+12979200,Tangshan,China
+12979519,Shiyan,China
+13057303,Lucknow,India
+13059693,Mashhad,Iran
+13154772,San Francisco,United States
+12950362,Dubai,United Arab Emirates
+12987435,Anshan,China
+12980104,Qinzhou,China
+12982492,Guiyang,China
+12983871,Bengbu,China
+12983928,Bazhou,China
+12979318,Suining,China
+12978721,Wuxi,China
+12982377,Hanzhong,China
+12980265,Putian,China
+12977410,Zhenjiang,China
+12980422,Guang'an,China
+13107431,Faisalabad,Pakistan
+12982399,Changzhi,China
+12979039,Tongren,China
+12981400,Leshan,China
+12964103,Santa Cruz de la Sierra,Bolivia
+12980114,Qinhuangdao,China
+13057859,Jaipur,India
+12978182,Xinzhou,China
+12981439,Lanzhou,China
+12978698,Wuzhou,China
+13040791,Athens,Greece
+13144824,San Diego,United States
+13017336,Addis Ababa,Ethiopia
+13133683,Taichung,Taiwan
+12982142,Huainan,China
+13042009,Guatemala City,Guatemala
+13074563,Kuwait City,Kuwait
+13045069,Budapest,Hungary
+12979096,Qincheng,China
+12991558,Rizhao,China
+13103780,Quezon City,Philippines
+13159868,Sanaa,Yemen
+13158488,Tashkent,Uzbekistan
+13135607,Kyiv,Ukraine
+12980721,Meishan,China
+13037915,Birmingham,United Kingdom
+12981797,Ningde,China
+12977333,Zhongshan,China
+12978871,Weihai,China
+13133319,Bursa,Turkey
+13139747,Minneapolis,United States
+12982416,Haikou,China
+12986643,Tongliao,China
+12979499,Chaoyang,China
+12964160,La Paz,Bolivia
+13138480,Tampa,United States
+12979737,Shaoguan,China
+12977695,Heyuan,China
+12966287,Brasilia,Brazil
+13126257,Omdurman,Sudan
+13046291,Malang,Indonesia
+12997874,Stuttgart,Germany
+12987292,Daqing,China
+13062969,Rome,Italy
+13139084,Brooklyn,United States
+13133702,Kaohsiung,Taiwan
+12978618,Xiangtan,China
+12981010,Longyan,China
+12987400,Baotou,China
+12982401,Handan,China
+12981625,Jinzhou,China
+13057654,Kanpur,India
+13141842,Denver,United States
+12980520,Nanping,China
+12979745,Shanwei,China
+12983651,Chaozhou,China
+13009101,Guayaquil,Ecuador
+12978872,Weifang,China
+12980153,Huai'an,China
+12977520,Zibo,China
+12978331,Ankang,China
+13128806,Mogadishu,Somalia
+13000831,Munich,Germany
+12982475,Gulou,China
+13133678,Taipei,Taiwan
+13047074,Bekasi,Indonesia
+13129194,Damascus,Syria
+12979899,Sanming,China
+12978005,Yangjiang,China
+12987079,Jiamusi,China
+12980945,Luohe,China
+12992565,Medellin,Colombia
+12983149,Dingxi,China
+12979734,Shaoxing,China
+12977915,Yantai,China
+12981955,Huizhou,China
+12981200,Lishui,China
+12978115,Xuanzhou,China
+13057092,Mirzapur,India
+12977206,Zigong,China
+13003624,Hamburg,Germany
+12981890,Guangyuan,China
+12992957,Cali,Colombia
+12982051,Huangshi,China
+12978280,Xining,China
+13160810,Lusaka,Zambia
+12963530,Ouagadougou,Burkina Faso
+12976149,Yaounde,Cameroon
+12978608,Zhuhai,China
+12987092,Huludao,China
+12976572,Baoshan,China
+13126141,Mecca,Saudi Arabia
+12968328,Vancouver,Canada
+12981348,Lianshan,China
+13074993,Beirut,Lebanon
+12965249,Salvador,Brazil
+13119389,Bucharest,Romania
+12988407,Longba,China
+13056988,Nagpur,India
+13150839,Queens,United States
+12987066,Jilin,China
+12986652,Tieling,China
+13039437,Accra,Ghana
+12977632,Yunfu,China
+13058097,Ghaziabad,India
+12976955,Luoyang,China
+12957659,Brisbane,Australia
+12984145,Anshun,China
+13137350,Riverside,United States
+12986464,Yingkou,China
+13075102,Colombo,Sri Lanka
+12976903,Yanjiang,China
+12960760,Baku,Azerbaijan
+13076498,Antananarivo,Madagascar
+12986905,Mudanjiang,China
+13072637,Fukuoka,Japan
+12978045,Yan'an,China
+12981726,Jincheng,China
+12980499,Nantong,China
+12981291,Lincang,China
+12977305,Yuxi,China
+13155333,Las Vegas,United States
+13158935,Caracas,Venezuela
+13045562,Tangerang,Indonesia
+12981482,Laibin,China
+13131391,Konya,Turkey
+13056111,Supaul,India
+12952761,Vienna,Austria
+13140599,Baltimore,United States
+12979682,Shengli,China
+12987296,Dandong,China
+12982689,Gaoping,China
+13096099,Awka,Nigeria
+12979238,Taizhou,China
+12980870,Ma'anshan,China
+13160883,Harare,Zimbabwe
+12955793,Perth,Australia
+13141349,St. Louis,United States
+13073825,Phnom Penh,Cambodia
+13046771,Depok,Indonesia
+13126642,Stockholm,Sweden
+12981149,Puning,China
+12982150,Huaibei,China
+13042207,Kowloon,Hong Kong
+12952453,Cordoba,Argentina
+13159271,Haiphong,Vietnam
+12991665,Chongzuo,China
+13107187,Rawalpindi,Pakistan
+13143882,Portland,United States
+13095729,Kano,Nigeria
+12977080,Yushan,China
+12993435,Havana,Cuba
+12988713,Hezhou,China
+12980337,Pingliang,China
+13055902,Vadodara,India
+12966512,Manaus,Brazil
+12980119,Qingyang,China
+13138411,San Antonio,United States
+13056542,Rajkot,India
+12979901,Sanmenxia,China
+12976711,Baicheng,China
+13107411,Gujranwala,Pakistan
+13129184,Aleppo,Syria
+13085222,Tijuana,Mexico
+12976271,Bamenda,Cameroon
+12967143,Minsk,Belarus
+13057891,Indore,India
+13059743,Karaj,Iran
+13107212,Peshawar,Pakistan
+13072907,Sapporo,Japan
+13154755,Sacramento,United States
+13096744,Tilburg,Netherlands
+12979034,Pingxiang,China
+13074882,Almaty,Kazakhstan
+13137450,Austin,United States
+12977827,Yinchuan,China
+12965186,Santos,Brazil
+13077704,Blantyre,Malawi
+13056037,Thane,India
+13138296,Orlando,United States
+13133681,Tainan,Taiwan
+12977467,Xiping,China
+13107250,Multan,Pakistan
+13095487,Port Harcourt,Nigeria
+12987042,Jixi,China
+12987208,Fushun,China
+13107770,Warsaw,Poland
+12983904,Beihai,China
+12987206,Fuxin,China
+12981358,Wuwei,China
+12979372,Siping,China
+13111489,San Juan,Puerto Rico
+13131292,Mersin,Turkey
+13058626,Bhopal,India
+13059460,Mosul,Iraq
+13105643,Davao,Philippines
+12966054,Curitiba,Brazil
+13146933,San Jose,United States
+13132523,Adana,Turkey
+13008937,Quito,Ecuador
+13152492,Pittsburgh,United States
+13131994,Diyarbakir,Turkey
+13139455,Indianapolis,United States
+13158310,Montevideo,Uruguay
+12979405,Shuozhou,China
+13139734,Manhattan,United States
+13142514,Cincinnati,United States
+13139704,Kansas City,United States
+13056718,Patna,India
+13042476,Tegucigalpa,Honduras
+13136951,Kampala,Uganda
+13137108,Cleveland,United States
+12985713,Sanzhou,China
+12988175,Changshu,China
+12987136,Heihe,China
+13039702,Conakry,Guinea
+12978397,Ximeicun,China
+13105976,Caloocan City,Philippines
+13160867,Masvingo,Zimbabwe
+13124845,Novosibirsk,Russia
+13058591,Bilaspur,India
+13045745,Semarang,Indonesia
+12981709,Jingdezhen,China
+13057302,Ludhiana,India
+12977172,Liaoyang,China
+12979124,Chengtangcun,China
+12961111,Rajshahi,Bangladesh
+12981822,Jiangyin,China
+13009942,Valencia,Spain
+13059084,Agra,India
+13086459,Leon de los Aldama,Mexico
+13079556,Puebla,Mexico
+13138682,Columbus,United States
+12982364,Hebi,China
+13059584,Shiraz,Iran
+13057277,Madurai,India
+12981902,Huzhou,China
+13059568,Tabriz,Iran
+13057825,Jamshedpur,India
+13158803,Maracaibo,Venezuela
+12963659,Sofia,Bulgaria
+12993236,San Jose,Costa Rica
+13059041,Prayagraj,India
+13046049,Palembang,Indonesia
+13072459,Kawasaki,Japan
+13072444,Kobe,Japan
+12981767,Jiaxing,China
+13126081,Kigali,Rwanda
+12983219,Zhangjiajie,China
+12984008,Baiyin,China
+12982500,Guiping,China
+12981392,Lianjiang,China
+12981833,Jianguang,China
+12977671,Yucheng,China
+13099784,Panama City,Panama
+12981418,Leizhou,China
+12964408,Recife,Brazil
+13158635,Valencia,Venezuela
+13095527,Onitsha,Nigeria
+12950374,Abu Dhabi,United Arab Emirates
+13085004,Zapopan,Mexico
+13124525,Yekaterinburg,Russia
+12981990,Huazhou,China
+12976496,Jinhua,China
+13072407,Kyoto,Japan
+13098178,Amsterdam,Netherlands
+12977629,Pizhou,China
+13145435,Virginia Beach,United States
+13128767,Dakar,Senegal
+12965962,Goiania,Brazil
+13141808,Charlotte,United States
+12979985,Rui'an,China
+13099620,Muscat,Oman
+13135880,Kharkiv,Ukraine
+12978821,Wenling,China
+12982659,Gaozhou,China
+13058183,Faridabad,India
+13126184,Medina,Saudi Arabia
+12961195,Khulna,Bangladesh
+12980006,Fuqing,China
+13131477,Kayseri,Turkey
+12978699,Wuzhong,China
+12980353,Pingdu,China
+12977972,Yangquan,China
+13132804,Samsun,Turkey
+12980438,Yutan,China
+13008024,Copenhagen,Denmark
+13017786,Helsinki,Finland
+12994608,Prague,Czechia
+13064487,Milan,Italy
+13099283,Auckland,New Zealand
+12983543,Chizhou,China
+13045451,Makassar,Indonesia
+12987653,Liangshi,China
+12965363,Porto Alegre,Brazil
+12978996,Huangshan,China
+12993024,Barranquilla,Colombia
+12987374,Benxi,China
+13073147,Saitama,Japan
+12965930,Guarulhos,Brazil
+13082510,Juarez,Mexico
+12978228,Xintai,China
+12967458,Calgary,Canada
+13057115,Meerut,India
+12986438,Yushu,China
+12964821,Belem,Brazil
+12981990,Huazhou,China
+12987420,Baishan,China
+12956055,Adelaide,Australia
+12982423,Haicheng,China
+13153414,Milwaukee,United States
+13140128,Providence,United States
+13137230,Jacksonville,United States
+12977848,Yicheng,China
+13112605,Porto,Portugal
+12952116,Rosario,Argentina
+13160269,Soweto,South Africa
+13057877,Jabalpur,India
+12979987,Rucheng,China
+13054775,Dublin,Ireland
+13123378,Kazan,Russia
+12983235,Dayan,China
+12983951,Shaoyang,China
+13132330,Balikesir,Turkey
+12981474,Laiwu,China
+12950365,Sharjah,United Arab Emirates
+12981698,Jingling,China
+13057694,Kalyan,India
+13122562,Nizhniy Novgorod,Russia
+12991971,Yongcheng,China
+13045627,Sumedang,Indonesia
+13159338,Can Tho,Vietnam
+12963170,Brussels,Belgium
+12983530,Yiwu,China
+12983913,Beidao,China
+12978620,Xiangshui,China
+12980386,Dadukou,China
+12966226,Campinas,Brazil
+12981249,Lingcheng,China
+12986730,Shuangyashan,China
+13073502,Mombasa,Kenya
+13056978,Najafgarh,India
+12978202,Xinyu,China
+13059634,Qom,Iran
+13128819,Hargeysa,Somalia
+13128847,Baidoa,Somalia
+12977483,Zhangye,China
+13055885,Varanasi,India
+13072572,Hiroshima,Japan
+13129614,Chiang Mai,Thailand
+13120691,Belgrade,Serbia
+13095654,Maiduguri,Nigeria
+13125146,Chelyabinsk,Russia
+12980004,Rongcheng,China
+13113227,Doha,Qatar
+13059908,Ahvaz,Iran
+13074705,Shymkent,Kazakhstan
+13075702,Tripoli,Libya
+13056139,Srinagar,India
+13137647,Nashville,United States
+12985523,Liaoyuan,China
+13058912,Aurangabad,India
+13046871,Cilacap,Indonesia
+13156744,Salt Lake City,United States
+13124830,Omsk,Russia
+13128684,Pikine,Senegal
+13121971,Samara,Russia
+12981138,Guankou,China
+13045544,Bandar Lampung,Indonesia
+13141645,Raleigh,United States
+12981446,Lianyuan,China
+12980004,Rongcheng,China
+13058300,Dhanbad,India
+13096191,Aba,Nigeria
+12981217,Kaiyuan,China
+12977252,Zhuji,China
+12977812,Yingtan,China
+12967586,Edmonton,Canada
+12978937,Leiyang,China
+12977844,Yichun,China
+13096067,Benin City,Nigeria
+12963922,Bujumbura,Burundi
+12982434,Guyuan,China
+12978589,Xiantao,China
+13122020,Rostov,Russia
+13095116,Maputo,Mozambique
+13058995,Amritsar,India
+13095453,Shagamu,Nigeria
+12977580,Yingchuan,China
+13059044,Aligarh,India
+13008302,Santo Domingo,Dominican Republic
+13047039,Bogor,Indonesia
+13073794,Bishkek,Kyrgyzstan
+13039206,Tbilisi,Georgia
+13058115,Guwahati,India
+13121412,Ufa,Russia
+13076023,Fes,Morocco
+13133786,Mwanza,Tanzania
+13159365,Bien Hoa,Vietnam
+13086301,Mexicali,Mexico
+13010112,Sevilla,Spain
+13095830,Ikare,Nigeria
+12983055,Dongtai,China
+12983142,Dingzhou,China
+13039357,Tamale,Ghana
+12977573,Yuyao,China
+12982402,Hanchuan,China
+12987177,Gongzhuling,China
+13129371,N'Djamena,Chad
+13124984,Krasnoyarsk,Russia
+12977259,Zhufeng,China
+12987632,Ezhou,China
+13074879,Astana,Kazakhstan
+13094585,Nezahualcoyotl,Mexico
+13077395,Nouakchott,Mauritania
+12951207,Yerevan,Armenia
+13056496,Ranchi,India
+13139531,Richmond,United States
+13080923,Ciudad Nezahualcoyotl,Mexico
+13058005,Gwalior,India
+12967973,Ottawa,Canada
+12977325,Zhongwei,China
+13098514,Oslo,Norway
+13072759,Sendai,Japan
+12978163,Xishan,China
+13158968,Barquisimeto,Venezuela
+12987139,Hegang,China
+13058500,Chandigarh,India
+13121186,Voronezh,Russia
+13096359,Managua,Nicaragua
+13057992,Haldwani,India
+13055856,Vijayawada,India
+13122283,Perm,Russia
+12991680,Fangchenggang,China
+12981800,Jiancheng,China
+12979504,Shouguang,China
+13138222,Memphis,United States
+12964336,Sao Luis,Brazil
+13057767,Jodhpur,India
+13095112,Matola,Mozambique
+13095564,Ogbomoso,Nigeria
+12979881,Sanya,China
+13130553,Ashgabat,Turkmenistan
+12978726,Wutong,China
+12981247,Linhai,China
+13132027,Denizli,Turkey
+13095301,Niamey,Niger
+13009520,Shubra al Khaymah,Egypt
+12978976,Wafangdian,China
+12977808,Zhongxiang,China
+13075128,Monrovia,Liberia
+13158719,San Cristobal,Venezuela
+13107388,Islamabad,Pakistan
+12978205,Xinyi,China
+13086242,Morelia,Mexico
+13135142,Odesa,Ukraine
+13056562,Raipur,India
+13102030,Arequipa,Peru
+13121213,Volgograd,Russia
+12977554,Zaoyang,China
+12982119,Xingyi,China
+12979409,Shuizhai,China
+13057431,Kota,India
+13107198,Quetta,Pakistan
+13159498,Quang Ha,Vietnam
+13039410,Domaa-Ahenkro,Ghana
+13058772,Bareilly,India
+13143007,Oklahoma City,United States
+13031489,Bordeaux,France
+12986539,Xingcheng,China
+12979246,Taixing,China
+12978192,Xinhualu,China
+13077697,Lilongwe,Malawi
+13044173,Port-au-Prince,Haiti
+12977822,Yingcheng,China
+13126298,Al Mijlad,Sudan
+12976456,Luocheng,China
+13045941,Pekanbaru,Indonesia
+12964509,Natal,Brazil
+13072857,Chiba,Japan
+13059400,Kirkuk,Iraq
+13137195,Hartford,United States
+12981965,Huilong,China
+12980727,Wuchuan,China
+13136197,Dnipro,Ukraine
+12961117,Narayanganj,Bangladesh
+13010656,Malaga,Spain
+13105797,Cebu City,Philippines
+13138839,Louisville,United States
+13009755,Asmara,Eritrea
+13058403,Coimbatore,India
+12964563,Maceio,Brazil
+12980606,Nada,China
+12976899,Taishan,China
+12964289,Teresina,Brazil
+13128611,Freetown,Sierra Leone
+13008488,Santo Domingo Este,Dominican Republic
+13123131,Krasnodar,Russia
+13074917,Vientiane,Laos
+13075842,Tangier,Morocco
+12984150,Anqiu,China
+13059738,Kermanshah,Iran
+12978359,Feicheng,China
+13141017,Buffalo,United States
+13057915,Hubli,India
+13133461,Cankaya,Turkey
+13055061,Jerusalem,Israel
+12980721,Meishan,China
+13095612,Mushin,Nigeria
+13100480,Trujillo,Peru
+13072448,Kitakyushu,Japan
+13090118,Aguascalientes,Mexico
+13140463,New Orleans,United States
+13144280,Fort Worth,United States
+12979276,Taihe,China
+13075561,Riga,Latvia
+12978390,Xin'an,China
+12976478,Kashgar,China
+12992932,Cartagena,Colombia
+12977839,Qingzhou,China
+13064095,Naples,Italy
+12952047,Santiago del Estero,Argentina
+13079843,Naucalpan de Juarez,Mexico
+12983227,Daye,China
+12980043,Hengzhou,China
+13046086,Padang,Indonesia
+13137076,Bridgeport,United States
+13095502,Owerri,Nigeria
+12977273,Zhuanghe,China
+12963583,Bobo-Dioulasso,Burkina Faso
+12980040,Quzhou,China
+13136171,Donetsk,Ukraine
+13009643,Ashmun,Egypt
+12981796,Jiaozhou,China
+12966220,Campo Grande,Brazil
+12986596,Wuchang,China
+12965164,Sao Goncalo,Brazil
+12992992,Bucaramanga,Colombia
+13079939,Merida,Mexico
+12983516,Yangchun,China
+13133591,Osmangazi,Turkey
+13133180,Esenyurt,Turkey
+13057077,Moradabad,India
+12968903,Bangui,Central African Republic
+13096185,Abeokuta,Nigeria
+13081125,Cancun,Mexico
+13106799,Antipolo,Philippines
+13126125,Tabuk,Saudi Arabia
+12976894,Zhoushan,China
+13153933,Tucson,United States
+13059436,As Sulaymaniyah,Iraq
+13082778,Chihuahua,Mexico
+13094667,Klang,Malaysia
+13055999,Tiruppur,India
+13058013,Gurgaon,India
+12982426,Hai'an,China
+12981473,Laiyang,China
+13158970,Barinas,Venezuela
+13057754,Jalandhar,India
+13025015,Marseille,France
+13131888,Eskisehir,Turkey
+12982694,Gaomi,China
+12976466,Lhasa,China
+13094707,Ipoh,Malaysia
+13146564,El Paso,United States
+13079450,Saltillo,Mexico
+13130487,Dushanbe,Tajikistan
+13095829,Ikeja,Nigeria
+13087253,El Dorado,Mexico
+12964194,Cochabamba,Bolivia
+13034703,Portsmouth,United Kingdom
+13124601,Tyumen,Russia
+13034227,Southampton,United Kingdom
+13086933,Hermosillo,Mexico
+12978721,Wuxi,China
+12978122,Leping,China
+12976375,Shache,China
+13075908,Sale,Morocco
+12987153,Hailun,China
+12980860,Macheng,China
+13096134,Akure,Nigeria
+13095801,Ilorin,Nigeria
+13059405,Erbil,Iraq
+13098938,Kathmandu,Nepal
+13121951,Saratov,Russia
+13061790,Turin,Italy
+12977670,Yuci,China
+12987266,Dehui,China
+13160308,Pietermaritzburg,South Africa
+13160487,Durban,South Africa
+13046773,Denpasar,Indonesia
+12979056,Tongchuan,China
+12964597,Joao Pessoa,Brazil
+13045811,Samarinda,Indonesia
+12980067,Chengxiang,China
+12980001,Rongjiawan,China
+13072247,Sakai,Japan
+12980021,Renqiu,China
+13144669,Omaha,United States
+12978351,Xindi,China
+12978797,Wu'an,China
+12980145,Qingping,China
+12982662,Gaoyou,China
+12965183,Sao Bernardo do Campo,Brazil
+12977836,Yiyang,China
+12982340,Hejian,China
+12983662,Puxi,China
+13058648,Bhayandar,India
+13087402,Culiacan,Mexico
+12992844,Cucuta,Colombia
+12976895,Danyang,China
+12978742,Dongyang,China
+13110391,Krakow,Poland
+13107074,Pasig City,Philippines
+13040985,Thessaloniki,Greece
+13082889,Queretaro,Mexico
+12992479,Palermo,Colombia
+12976407,Qamdo,China
+13144574,McAllen,United States
+13033290,Libreville,Gabon
+13131058,Seyhan,Turkey
+13042516,San Pedro Sula,Honduras
+13072321,Niigata,Japan
+13144364,Hempstead,United States
+13035679,Leeds,United Kingdom
+13072604,Hamamatsu,Japan
+12978614,Xiangxiang,China
+13137059,Birmingham,United States
+12951545,Lubango,Angola
+13129173,Homs,Syria
+13016105,Bilbao,Spain
+13082727,San Luis Potosi,Mexico
+12983375,Dali,China
+12982784,Fuyang,China
+13130510,Khujand,Tajikistan
+12976652,Korla,China
+13155249,Albuquerque,United States
+13131895,Erzurum,Turkey
+13042964,Zagreb,Croatia
+13056720,Patiala,India
+12979434,Laixi,China
+12977372,Zhongba,China
+13107513,Bahawalpur,Pakistan
+12981233,Qingnian,China
+13095748,Kaduna,Nigeria
+12968396,Winnipeg,Canada
+13132714,Trabzon,Turkey
+12982566,Guangshui,China
+13128850,Baardheere,Somalia
+13056253,Shishgarh,India
+13158910,Ciudad Guayana,Venezuela
+12964509,Natal,Brazil
+12981325,Lichuan,China
+12981118,Licheng,China
+12965198,Santo Andre,Brazil
+13128824,Gaalkacyo,Somalia
+13055972,Thiruvananthapuram,India
+12965513,Osasco,Brazil
+13095093,Nampula,Mozambique
+13160295,Pretoria,South Africa
+12980134,Chengguan,China
+12986881,Nehe,China
+12951516,Cabinda,Angola
+13072420,Kumamoto,Japan
+13059739,Kerman,Iran
+12986405,Zunhua,China
+13059659,Orumiyeh,Iran
+12978780,Wugang,China
+13133366,Bagcilar,Turkey
+12985103,Shuangqiao,China
+13130900,Umraniye,Turkey
+13143089,Tulsa,United States
+13095513,Osogbo,Nigeria
+12952458,Comodoro Rivadavia,Argentina
+13034944,Nottingham,United Kingdom
+12967677,Hamilton,Canada
+12983952,Langzhong,China
+13106048,Cagayan de Oro,Philippines
+12986849,Qian'an,China
+13144287,Fresno,United States
+12965071,Sorocaba,Brazil
+12982480,Guli,China
+13073256,Sagamihara,Japan
+13072284,Okayama,Japan
+12984157,Anlu,China
+12976099,Concepcion,Chile
+12967888,Mississauga,Canada
+12979966,Changsha,China
+12979330,Songyang,China
+13135526,Lviv,Ukraine
+12976626,Shihezi,China
+13075195,Vilnius,Lithuania
+13128807,Marka,Somalia
+13095956,Enugu,Nigeria
+13102647,Valenzuela,Philippines
+12977864,Yatou,China
+12964981,Uberlandia,Brazil
+12976849,Xichang,China
+13058633,Bhiwandi,India
+13094754,George Town,Malaysia
+13037692,Bristol,United Kingdom
+13137486,Charleston,United States
+13056416,Saharanpur,India
+12987287,Dashiqiao,China
+13055824,Warangal,India
+13105652,Dasmarinas,Philippines
+12964610,Jaboatao,Brazil
+13076318,Chisinau,Moldova
+13102553,Port Moresby,Papua New Guinea
+13129278,Latakia,Syria
+13139279,Rochester,United States
+12965297,Ribeirao Preto,Brazil
+12965138,Sao Jose dos Campos,Brazil
+13105456,General Santos,Philippines
+13129182,Hamah,Syria
+12986540,Qianxi,China
+13096073,Bauchi,Nigeria
+13132822,Pendik,Turkey
+13056397,Salem,India
+12979538,Shishi,China
+13009514,Sinnuris,Egypt
+12980668,Miluo Chengguanzhen,China
+13095663,Lokoja,Nigeria
+13080519,Guadalupe,Mexico
+12987201,Gaizhou,China
+13059401,Karbala',Iraq
+12981409,Leling,China
+13131308,Mamak,Turkey
+12976502,Jianshe,China
+13121483,Tolyatti,Russia
+13072196,Shizuoka,Japan
+12988882,Jingcheng,China
+13096158,Agege,Nigeria
+12951743,Mar del Plata,Argentina
+13011892,Zaragoza,Spain
+12978256,Xinmin,China
+13059626,Rasht,Iran
+12976838,Shanhu,China
+12977330,Zhongshu,China
+12963994,Cotonou,Benin
+13045527,Tasikmalaya,Indonesia
+12992192,Soledad,Colombia
+13058266,Dhulia,India
+13081521,Acapulco de Juarez,Mexico
+13058052,Gorakhpur,India
+13059867,Bahar,Iran
+13109206,Wroclaw,Poland
+13010520,Murcia,Spain
+12977139,Pinghu,China
+12981138,Guankou,China
+13110241,Lodz,Poland
+13058015,Guntur,India
+13139933,Dayton,United States
+12980103,Qionghu,China
+12986427,Zhaodong,China
+12980257,Puyang Chengguanzhen,China
+13160902,Bulawayo,Zimbabwe
+12951551,Huambo,Angola
+12966419,Aracaju,Brazil
+13106712,Bacoor,Philippines
+12977038,Wenchang,China
+13096935,Rotterdam,Netherlands
+13085202,Tlaquepaque,Mexico
+12992048,Villavicencio,Colombia
+12986727,Shulan,China
+13122828,Makhachkala,Russia
+13047128,Banjarmasin,Indonesia
+13056929,Narela,India
+13158925,Catia La Mar,Venezuela
+13126194,Al Hufuf,Saudi Arabia
+13095761,Jalingo,Nigeria
+13107167,Sargodha,Pakistan
+12982462,Lingbao Chengguanzhen,China

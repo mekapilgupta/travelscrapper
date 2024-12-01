@@ -4,6 +4,7 @@
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
     "compromise": "^14.14.2",
+    "csv-parser": "^3.0.0",
     "fs": "^0.0.1-security",
     "g4f": "^1.4.6",
     "http-proxy-agent": "^7.0.2",
